@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 sns.set_palette('Set2')
 
-
+# 可以说设置多个P值来测试串扰
 N = 400
 P = 100
 N_sqrt = np.sqrt(N).astype('int32')
